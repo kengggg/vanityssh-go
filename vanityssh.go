@@ -48,6 +48,7 @@ func init() {
 		re, err = regexp.Compile("(?i)" + global_user_input)
 	}
 	if err != nil {
+		fmt.Printf("Error compiling regex: %v\n", err)
 		os.Exit(1)
 	}
 	fmt.Println("global_user_input =", global_user_input)
