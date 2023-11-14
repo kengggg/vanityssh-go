@@ -19,3 +19,4 @@ clean:
 	$(GO) clean
 	rm -f $(BINARY_NAME)
 	rm -f $(BINARY_WINDOWS)
+	
