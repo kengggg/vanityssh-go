@@ -17,6 +17,12 @@ You can build the project using the provided Makefile:
 make build
 ```
 
+__Optional__: build and compress the binary (~60% binary size reduction, require `UPX`)
+
+```bash
+make build && make compress
+```
+
 ## Usage
 
 Using vanityssh with no switches results in it returning the first generated ssh key and write it to id_ed25519 and id_ed25519.pub in the current directory.
